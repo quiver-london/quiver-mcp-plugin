@@ -1,0 +1,27 @@
+{
+  "name": "quiver",
+  "version": "1.0.0",
+  "description": "Manage Quiver deliveries, returns, products and warehouse stock.",
+  "author": {
+    "name": "Quiver Solutions Limited",
+    "email": "matt@quiver.co.uk",
+    "url": "https://quiver.co.uk"
+  },
+  "homepage": "https://mcp.quiver.co.uk/",
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "QUIVER_API_KEY": {
+        "type": "string",
+        "title": "Quiver API key",
+        "description": "Your merchant API key from Quiver Settings \u2192 Integrations. Configure it privately; never put it in a prompt or repository."
+      }
+    },
+    "required": [
+      "QUIVER_API_KEY"
+    ]
+  },
+  "repository": "https://github.com/quiver-london/quiver-mcp-plugin"
+}

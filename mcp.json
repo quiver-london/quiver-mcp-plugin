@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "quiver": {
+      "url": "https://mcp.quiver.co.uk/mcp",
+      "headers": {
+        "x-api-key": "${QUIVER_API_KEY}"
+      }
+    }
+  }
+}
